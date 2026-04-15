@@ -1,0 +1,10 @@
+Pillow
+opencv-python-headless
+numpy
+PyWavelets
+torch
+torchvision
+transformers
+exifread
+folium
+streamlit

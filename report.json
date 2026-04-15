@@ -1,0 +1,55 @@
+[
+    {
+        "severity": "high",
+        "module": "ELA",
+        "finding": "Inconsistent compression detected (ELA standard deviation: 10.45). Map saved.",
+        "visual_map": "ela_map.jpg",
+        "heatmap_data": "ela_data.npy"
+    },
+    {
+        "severity": "medium",
+        "module": "PRNU",
+        "finding": "Anomalous high sensor noise patterns detected (Energy: 552.43). Map saved.",
+        "visual_map": "prnu_map.jpg",
+        "heatmap_data": "prnu_data.npy"
+    },
+    {
+        "severity": "low",
+        "module": "Shadow/Luminance",
+        "finding": "Natural shadow and luminance gradients detected (Magnitude: 64.46). Map saved.",
+        "visual_map": "luminance_map.jpg",
+        "heatmap_data": "luminance_data.npy"
+    },
+    {
+        "severity": "low",
+        "module": "JPEG Ghost",
+        "finding": "Normal JPEG compression consistency (Avg Diff: 2.96). Map saved.",
+        "visual_map": "ghost_map.jpg",
+        "heatmap_data": "ghost_data.npy"
+    },
+    {
+        "severity": "high",
+        "module": "AI Engine (GenAI)",
+        "finding": "High probability of AI Generation (Midjourney/SD) detected. Label: ARTIFICIAL, Confidence: 0.74"
+    },
+    {
+        "severity": "low",
+        "module": "AI Engine (Deepfake)",
+        "finding": "No Deepfake patterns detected. Model predicts REAL with Confidence: 0.83"
+    },
+    {
+        "severity": "info",
+        "module": "Metadata",
+        "finding": "Basic EXIF data recovered: Camera: OnePlus OnePlus Nord CE 3 Lite 5G | Date: 2024:09:08 14:37:47 | Dimensions: 0x0"
+    },
+    {
+        "severity": "low",
+        "module": "OSINT (Weather)",
+        "finding": "Historical Weather Analysis skipped: Missing GPS coordinates in the image EXIF metadata."
+    },
+    {
+        "severity": "info",
+        "module": "OSINT (SerpApi)",
+        "finding": "Reverse image search matches found: \ud835\udc73\ud835\udc8a\ud835\udc88\ud835\udc89\ud835\udc95\ud835\udc94, \ud835\udc6a\ud835\udc82\ud835\udc8e\ud835\udc86\ud835\udc93\ud835\udc82, \ud835\udc77\ud835\udc82\ud835\udc8d\ud835\udc82\ud835\udc9b\ud835\udc9b\ud835\udc90 ..., Forum Vijaya Mall - Picture of Nexus Vijaya Mall, Chennai ..., PVR : Palazzo in Nexus Vijaya Mall - Vadapalani #palazzo ..."
+    }
+]
